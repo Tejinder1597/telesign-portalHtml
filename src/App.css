@@ -32,6 +32,7 @@
   align-items: center; /* Center vertically */
   padding: 20px; /* Optional: Adds some padding inside .app-body */
   height: 100%;
+  background-color: #FFFFFF; /* body background is white */
 }
 
 @keyframes App-logo-spin {

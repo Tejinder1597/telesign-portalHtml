@@ -1,0 +1,44 @@
+.heading{
+    font-size:  revert;
+    font-weight: 700;
+}
+.subHead{
+    margin-top: 25px;
+    font-size: 20px;
+    text-align: center;
+}
+.cardBody{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    background: #e5e8f9;
+    width: 432px;
+    gap: 0 !important;
+
+    .flex.h-full.flex-col.justify-center.gap-4.p-6{
+        gap: unset;
+    }
+}
+.inputs{
+    background-color: #FFFFFF;
+    box-shadow: inset 1px 1px 3px 2px rgba(38, 38, 64, 0.11);
+}
+.buttonNext , .buttonCreate{
+    border-radius: 8px;
+    background-color: #011ac2;
+    color: #ffffff;
+    text-align: center;
+    line-height: 23px;
+    margin-top: 30px;
+}
+.buttonNext:hover , .buttonCreate:hover{
+    background-color: #011ac2;
+}
+.signinLink{
+    color: #4928ff;
+}
+.passHint{
+    color: #57576b;
+    font-size: 13px;
+}
